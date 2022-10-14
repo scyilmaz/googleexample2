@@ -1,0 +1,89 @@
+#google {
+    margin: 100px auto 0 auto;
+    width: 340px;
+    height: 100px;
+    text-align: center;
+
+}
+.account {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 0%;
+    font-family: 'Arima Madurai', cursive;
+}
+::-webkit-scrollbar {
+    background: #000;
+    width: 14px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+}
+a { /* Link verilen yazıların altındaki çizgileri kaldırıp renklerini değiştirdik */
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+.container {
+    width: 1200px;
+    height: 110px;
+    margin: 25px auto 0 auto;
+}
+.search-bar { /* SearchBar ortaya hizalanıp üstten 5px boşluk verildi.*/
+    text-align: center;
+    padding-top: 5px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    font-size: 22px;
+    flex: 1;
+    border: 1;
+    outline: none;
+    border-radius: 12px;
+}
+::placeholder {
+    color: black;
+}
+.search-bar button { 
+    text-align: center;
+    border: 1;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 20px;
+    opacity: 0.8;
+    color: black;
+}
+.alt {
+    position:fixed;
+    bottom:0px;
+    left: 0px;
+    background-color: rgb(238, 237, 237);
+    width: 1366px;
+    height: 45px;
+}
+.about {
+    bottom:0px;
+    width: 460px;
+    height: 45px;
+    padding: 0 auto 0 auto;
+    margin-left: 10px;
+    font-family: 'Arima Madurai', cursive;
+}
+.about2 {
+    bottom:0px;
+    width: 450px;
+    height: 45px;
+    position: absolute;
+    margin-left: 460px;
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+}
+.about3 {
+    bottom:0px;
+    width: 456px;
+    height: 45px;
+    position: absolute;
+    margin-left: 909px;
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+}
